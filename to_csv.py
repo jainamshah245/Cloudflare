@@ -39,8 +39,11 @@ def get_cf_graphql(start_date, end_date):
             filter: {{ zoneTag: $zoneTag }}
           ) {{
             firewallEventsAdaptive(
-              filter: $filter
-              limit: 10000
+              filter: {{ 
+              datetime_gt: 2022-02-20T15:00:00Z,
+              datetime_lt: 2020-02-21T15:00:00Z
+              }},
+              limit: 10000,
               orderBy: [datetime_DESC]
             ) {{
                 action
@@ -72,16 +75,6 @@ def get_cf_graphql(start_date, end_date):
       }}",
       "variables": {{
         "zoneTag": "{api_zone}",
-        "filter": {{
-          "AND":[
-            {{
-              "date_geq": "2022-02-20"
-            }},
-            {{
-              "date_leq": "2022-02-21"
-            }}
-          ]
-        }}
       }}
     }}'''
 
