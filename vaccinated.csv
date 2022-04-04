@@ -1,0 +1,521 @@
+{
+	"data": {
+		"viewer": {
+			"zones": [
+				{
+					"firewallEventsAdaptive": [
+						{
+							"action": "block",
+							"clientASNDescription": "DFN Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+							"clientAsn": "680",
+							"clientCountryName": "DE",
+							"clientIP": "134.96.225.237",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/2",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-01T17:31:53Z",
+							"metadata": [],
+							"rayName": "6f530f9858eefb5c",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4889.0 Safari/537.36\""
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "DFN Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+							"clientAsn": "680",
+							"clientCountryName": "DE",
+							"clientIP": "134.96.225.237",
+							"clientRequestHTTPHost": "pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/2",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-01T17:31:53Z",
+							"metadata": [],
+							"rayName": "6f530f985eb57a5b",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4889.0 Safari/537.36\""
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "SAKURA-A SAKURA Internet Inc.",
+							"clientAsn": "7684",
+							"clientCountryName": "JP",
+							"clientIP": "133.242.95.29",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/home-japan",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-01T19:03:19Z",
+							"metadata": [],
+							"rayName": "6f53958d2d9b2047",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "Mozilla/1.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "SAKURA-A SAKURA Internet Inc.",
+							"clientAsn": "7684",
+							"clientCountryName": "JP",
+							"clientIP": "133.242.245.148",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-01T19:05:04Z",
+							"metadata": [],
+							"rayName": "6f53981c09ba0ac4",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "Mozilla/1.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "OVH",
+							"clientAsn": "16276",
+							"clientCountryName": "FR",
+							"clientIP": "51.68.214.163",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-01T22:41:22Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f54d4f31a8771e7",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "MICROSOFT-CORP-MSN-AS-BLOCK",
+							"clientAsn": "8075",
+							"clientCountryName": "US",
+							"clientIP": "20.114.156.39",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/.env",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T04:49:26Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Version Control - Information Disclosure"
+								}
+							],
+							"rayName": "6f56f01d5ef45c52",
+							"ruleId": "100016",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "OVH",
+							"clientAsn": "16276",
+							"clientCountryName": "FR",
+							"clientIP": "51.68.214.163",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T06:21:12Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f5776860d4f71ae",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "SAKURA-A SAKURA Internet Inc.",
+							"clientAsn": "7684",
+							"clientCountryName": "JP",
+							"clientIP": "133.242.95.29",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/home-japan",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T19:03:18Z",
+							"metadata": [],
+							"rayName": "6f5bd2e5db160adc",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "Mozilla/1.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "SAKURA-A SAKURA Internet Inc.",
+							"clientAsn": "7684",
+							"clientCountryName": "JP",
+							"clientIP": "133.242.245.148",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T19:04:19Z",
+							"metadata": [],
+							"rayName": "6f5bd4642fe020a7",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "Mozilla/1.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "OVH",
+							"clientAsn": "16276",
+							"clientCountryName": "FR",
+							"clientIP": "51.68.214.163",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T19:51:56Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f5c1a21390188b3",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "UNI2-AS",
+							"clientAsn": "12479",
+							"clientCountryName": "ES",
+							"clientIP": "80.103.121.182",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-02T20:46:51Z",
+							"metadata": [],
+							"rayName": "6f5c6a924d78866c",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "Java/1.4.1_04"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "M247",
+							"clientAsn": "9009",
+							"clientCountryName": "CZ",
+							"clientIP": "185.87.148.103",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "HEAD",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T01:01:51Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Anomaly:Header:User-Agent"
+								}
+							],
+							"rayName": "6f5de01e6bbc410d",
+							"ruleId": "100043B",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "OVH",
+							"clientAsn": "16276",
+							"clientCountryName": "FR",
+							"clientIP": "51.68.214.163",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T02:31:52Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f5e63fb991f76b9",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "AISI-AS-AP HK AISI CLOUD COMPUTING LIMITED",
+							"clientAsn": "132813",
+							"clientCountryName": "HK",
+							"clientIP": "216.250.105.100",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/2",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T03:31:23Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Anomaly:Header:User-Agent - Fake Google Bot"
+								}
+							],
+							"rayName": "6f5ebb25eaea3c70",
+							"ruleId": "100201",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "MICROSOFT-CORP-MSN-AS-BLOCK",
+							"clientAsn": "8075",
+							"clientCountryName": "US",
+							"clientIP": "20.114.156.39",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/.env",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T04:34:03Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Version Control - Information Disclosure"
+								}
+							],
+							"rayName": "6f5f16f5da9d067c",
+							"ruleId": "100016",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "OVH",
+							"clientAsn": "16276",
+							"clientCountryName": "FR",
+							"clientIP": "51.68.214.163",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T07:24:35Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f6010c21f557735",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "AISI-AS-AP HK AISI CLOUD COMPUTING LIMITED",
+							"clientAsn": "132813",
+							"clientCountryName": "HK",
+							"clientIP": "216.250.105.100",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/2",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T08:34:28Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Anomaly:Header:User-Agent - Fake Google Bot"
+								}
+							],
+							"rayName": "6f60771f0fc03de3",
+							"ruleId": "100201",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "Mozilla/5.0+(compatible;+Googlebot/2.1;++http://www.google.com/bot.html)"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "MICROSOFT-CORP-MSN-AS-BLOCK",
+							"clientAsn": "8075",
+							"clientCountryName": "US",
+							"clientIP": "20.127.68.189",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/.env",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T11:16:33Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_specials"
+								},
+								{
+									"key": "rule_message",
+									"value": "Version Control - Information Disclosure"
+								}
+							],
+							"rayName": "6f61648c1f6381dc",
+							"ruleId": "100016",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "MICROSOFT-CORP-MSN-AS-BLOCK",
+							"clientAsn": "8075",
+							"clientCountryName": "US",
+							"clientIP": "20.127.68.189",
+							"clientRequestHTTPHost": "www.pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/1.1",
+							"clientRequestPath": "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T11:16:33Z",
+							"metadata": [
+								{
+									"key": "group",
+									"value": "cloudflare_php"
+								},
+								{
+									"key": "rule_message",
+									"value": "PHP, PHPUnit - Code Injection - CVE:CVE-2017-9841"
+								}
+							],
+							"rayName": "6f61648c78df060e",
+							"ruleId": "PHP100012",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "waf",
+							"userAgent": "python-requests/2.27.1"
+						},
+						{
+							"action": "block",
+							"clientASNDescription": "DFN Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+							"clientAsn": "680",
+							"clientCountryName": "DE",
+							"clientIP": "134.96.225.231",
+							"clientRequestHTTPHost": "pfizer-covid19-vaccinated.jp",
+							"clientRequestHTTPMethodName": "GET",
+							"clientRequestHTTPProtocol": "HTTP/2",
+							"clientRequestPath": "/",
+							"clientRequestQuery": "",
+							"datetime": "2022-04-03T13:15:07Z",
+							"metadata": [],
+							"rayName": "6f62123c7ad7c49f",
+							"ruleId": "bic",
+							"rulesetId": "",
+							"sampleInterval": 1,
+							"source": "bic",
+							"userAgent": "\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4889.0 Safari/537.36\""
+						}
+					]
+				}
+			]
+		}
+	},
+	"errors": null
+}
