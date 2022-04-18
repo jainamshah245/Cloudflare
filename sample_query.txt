@@ -2,32 +2,39 @@ query
 {
   viewer
   {
-    zones(filter: { zoneTag: "11111111"})
+    zones(filter: { zoneTag: "46c74ee1e9cdee5230518907c2703864"})
     {
       firewallEventsAdaptive(
           filter: {
-            datetime_gt: "2020-08-03T02:07:05Z",
-            datetime_lt: "2020-08-03T17:07:05Z"
+            datetime_gt: "2022-04-15T15:00:00Z",
+            datetime_lt: "2022-04-17T14:59:59Z" 
           },
-          limit: 2,
-          orderBy: [datetime_DESC, rayName_DESC])
+          limit: 10000,
+          orderBy: [datetime_ASC, rayName_ASC])
       {
         action
+        clientASNDescription
+        clientAsn
+        clientCountryName
+        clientIP
+        clientRequestHTTPHost
+        clientRequestHTTPMethodName
+        clientRequestHTTPProtocol
+        clientRequestPath
+        clientRequestQuery
         datetime
         rayName
-        clientRequestHTTPHost
+        ruleId
+        rulesetId
+        source
         userAgent
+        metadata
+        {
+          key
+          value
+        }
+        sampleInterval
       }
     }
   }
 }
-
-  "filter": {{
-          "AND":[
-            {{
-              "date_geq": "2022-02-20Z"
-            }},
-            {{
-              "date_leq": "2022-02-21Z"
-            }}
-          ]
