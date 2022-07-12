@@ -1,0 +1,40 @@
+query
+{
+  viewer
+  {
+    zones(filter: { zoneTag: "46c74ee1e9cdee5230518907c2703864"})
+    {
+      firewallEventsAdaptive(
+          filter: {
+            datetime_gt: "2022-04-15T15:00:00Z",
+            datetime_lt: "2022-04-17T14:59:59Z" 
+          },
+          limit: 10000,
+          orderBy: [datetime_ASC, rayName_ASC])
+      {
+        action
+        clientASNDescription
+        clientAsn
+        clientCountryName
+        clientIP
+        clientRequestHTTPHost
+        clientRequestHTTPMethodName
+        clientRequestHTTPProtocol
+        clientRequestPath
+        clientRequestQuery
+        datetime
+        rayName
+        ruleId
+        rulesetId
+        source
+        userAgent
+        metadata
+        {
+          key
+          value
+        }
+        sampleInterval
+      }
+    }
+  }
+}
